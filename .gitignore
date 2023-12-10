@@ -1,0 +1,20 @@
+#VSCode Specific
+.vscode
+*.code-workspace
+
+#Python Specific
+__pycache__
+venv
+*.egg-info
+dist
+build
+
+#tox
+.tox 
+
+# coverage
+htmlcov
+.coverage
+
+*.temp
+_test*.*
